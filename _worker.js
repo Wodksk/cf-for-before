@@ -6,7 +6,7 @@ import { connect } from 'cloudflare:sockets';
 let userID = 'd342d11e-d424-4583-b36e-524ab1f0afa4';
 
 // 生成配置文件的 CF 优选 IP
-const bestCFIP = "www.gov.se"
+const bestCFIP = 'cdn.xn--b6gac.eu.org, cdn-all.xn--b6gac.eu.org, workers.cloudflare.cyou'
 
 // 用于 CF 网站的代理 IP
 const proxyIPs = ["workers.cloudflare.cyou"]; // const proxyIPs = ['cdn-all.xn--b6gac.eu.org', 'cdn.xn--b6gac.eu.org', 'cdn-b100.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org', 'cdn.anycast.eu.org'];
@@ -810,7 +810,7 @@ Sing-box 配置文件订阅链接：https://${hostName}/${userID}/sb
 提示：部分地区有 CF 默认域名被污染的情况，除非打开客户端的 TLS 分片功能，否则无法使用 TLS 端口的节点
 如为 Pages 部署的节点则只能使用 TLS 端口的节点
 ---------------------------------------------------------------
-更多教程，请关注：小御坂的破站
+垃圾接盘侠维护，用不了勿喷
 `;
 }
 
